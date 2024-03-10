@@ -6,6 +6,7 @@ pip install
 ```
 
 ## run streamlit
-
+```
 streamlit run dashboard.py
 
+```
