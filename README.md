@@ -2,7 +2,7 @@
 
 ## setup enviroment
 ```
-pip install
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit
 ```
 
 ## run streamlit
