@@ -6,8 +6,10 @@ import numpy as np
 sns.set(style='dark')
 
 #membuka dataframe
-year_df = pd.read_csv("years.csv")
-month_df = pd.read_csv("month.csv")
+url_year = "https://github.com/agna2103/l_analisis_data/blob/main/dashboard/years.csv?raw=true"
+url_month = "https://github.com/agna2103/l_analisis_data/blob/main/dashboard/month.csv?raw=true"
+year_df = pd.read_csv(url_year, index_col=0)
+month_df = pd.read_csv(url_month, index_col=0)
 
 st.set_page_config(page_title= "AIR QUALITY INDEX SUBMISSION",page_icon="🌍",layout= "wide")
 
