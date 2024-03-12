@@ -2,11 +2,12 @@
 
 ## setup enviroment
 ```
-pip install numpy pandas scipy matplotlib seaborn jupyter streamlit
+
+pip install numpy pandas matplotlib seaborn jupyter streamlit 
 ```
 
 ## run streamlit
 ```
-streamlit run dashboard.py
+streamlit run dashboard/dashboard.py
 
 ```
