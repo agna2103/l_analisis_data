@@ -8,5 +8,5 @@ sns.set(style='dark')
 year_df = pd.read_csv("dashboard\years.csv")
 month_df = pd.read_csv("dashboard\month.csv")
 
-
+st.title("ini dashboard")
 
